@@ -1,3 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  border: 2px solid green;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1060px) {
+  .container {
+    width: 85%;
+  }
+}
