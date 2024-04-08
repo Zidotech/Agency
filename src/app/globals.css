@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +10,27 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Epilogue;
+}
+
 @layer utilities {
+  .max-container {
+    @apply mx-auto max-w-[1440px];
+  }
+
+  .padding-container {
+    @apply px-6 lg:px-20;
+  }
+
+  .flexCenter {
+    @apply flex items-center justify-center;
+  }
+
+  .flexBetween {
+    @apply flex items-center justify-between;
+  }
+
   .regular-14 {
     @apply text-[14px] font-[400];
   }
@@ -35,5 +57,17 @@
 
   .regular-72 {
     @apply text-[72px] font-[800] -tracking-[2px] leading-[80];
+  }
+
+  .rounded-f {
+    @apply rounded-full p-2 bg-text-lightAccent text-text-light;
+  }
+
+  .btn-transparent {
+    @apply bg-transparent rounded-lg px-6 text-text-light border-[0.5px];
+  }
+
+  .btn-white {
+    @apply bg-text-light text-text-dark;
   }
 }
