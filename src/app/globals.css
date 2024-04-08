@@ -9,10 +9,31 @@
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .regular-14 {
+    @apply text-[14px] font-[400];
   }
-  .btn_dark_green_outline {
-    @apply border-gray-900 bg-green-500 px-8 py-5 text-white;
+
+  .regular-16 {
+    @apply text-[16px] font-[400] leading-8;
+  }
+
+  .regular-20 {
+    @apply text-[20px] font-[400] leading-8;
+  }
+
+  .regular-24 {
+    @apply text-[24px] font-[700] leading-8;
+  }
+
+  .regular-40 {
+    @apply text-[40px] font-[800] leading-[48];
+  }
+
+  .regular-56 {
+    @apply text-[56px] font-[800] -tracking-[1px] leading-[64];
+  }
+
+  .regular-72 {
+    @apply text-[72px] font-[800] -tracking-[2px] leading-[80];
   }
 }
