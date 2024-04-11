@@ -12,6 +12,8 @@
 
 body {
   font-family: Epilogue;
+  overflow-x: hidden;
+  background-color: hsl(21, 84%, 95%);
 }
 
 @layer utilities {
@@ -73,5 +75,9 @@ body {
 
   .btn-accent {
     @apply bg-text-lightAccent text-text-light rounded-lg;
+  }
+
+  .btn-transparent2 {
+    @apply bg-transparent rounded-lg px-6 border-[0.5px] border-text-bd text-text-dark;
   }
 }

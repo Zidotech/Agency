@@ -1,9 +1,9 @@
-
-
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer>
+      <div className="padding-container max-container  w-full"></div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

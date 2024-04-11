@@ -15,6 +15,7 @@ const config: Config = {
           darkGray: "hsl(22, 17%, 41%)",
           lightGray: "hsl(0, 0%, 98%, 0.64)",
           lightAccent: "hsl(8, 82%, 64%, 1)",
+          darkAccent: "hsl(8, 83%, 64%, 1)",
           bgDark: "hsl(237, 22%, 20%)",
           bgLight: "hsl(21, 84%, 95%)",
           bd: "hsl(21, 68%, 85%, 1)",
