@@ -48,15 +48,15 @@ body {
   }
 
   .regular-40 {
-    @apply text-[40px] font-[800] leading-[48];
+    @apply text-[40px] font-[800] leading-[48px];
   }
 
   .regular-56 {
-    @apply text-[56px] font-[800] -tracking-[1px] leading-[64];
+    @apply text-[56px] font-[800] -tracking-[1px] leading-[64px];
   }
 
   .regular-72 {
-    @apply text-[72px] font-[800] -tracking-[2px] leading-[80];
+    @apply text-[72px] font-[800] -tracking-[2px] leading-[80px];
   }
 
   .rounded-f {
@@ -68,6 +68,10 @@ body {
   }
 
   .btn-white {
-    @apply bg-text-light text-text-dark;
+    @apply bg-text-light text-text-dark  px-6;
+  }
+
+  .btn-accent {
+    @apply bg-text-lightAccent text-text-light rounded-lg;
   }
 }
