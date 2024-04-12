@@ -5,10 +5,10 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <section className=" bg-text-bgDark  lg:h-dvh h-min pt-[116px] pb-5 ">
-      <div className="max-container padding-container flex justify-between lg:flex-row flex-col-reverse">
+      <div className="section padding-container flex justify-between lg:flex-row flex-col-reverse">
         <div className="flex-1 flex flex-col gap-y-1">
           <h5 className="regular-16 text-text-lightAccent">Modern Studio</h5>
-          <h1 className="lg:regular-72 regular-56 text-text-light  lg:text-text-lightAccent">
+          <h1 className="lg:regular-72 sm:regular-56 regular-40 text-text-light  lg:text-text-lightAccent">
             We Help To Build Your Dream Project
           </h1>
           <p className="regular-16 text-text-lightGray">

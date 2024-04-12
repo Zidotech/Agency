@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <section className="padding-container max-container py-10">
+    <section className="padding-container section  py-10">
       <div className="flex lg:justify-between lg:gap-0 gap-8 items-center flex-wrap border-b pb-10 border-text-bd">
         <Image
           src={"/digitalside.svg"}
@@ -35,7 +35,7 @@ const About = () => {
 
         <div className="flex-1 flex flex-col gap-6 sm:mt-0 mt-3">
           <h5 className="regular-16 text-text-lightAccent">About</h5>
-          <h2 className="regular-56 text-text-dark">
+          <h2 className="sm:regular-56 regular-40 text-text-dark">
             An Experience Design Agency
           </h2>
           <p className="regular-20 text-text-dark">

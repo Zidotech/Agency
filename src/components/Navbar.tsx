@@ -16,7 +16,7 @@ const Navbar = () => {
   };
   return (
     <header className=" absolute w-full">
-      <nav className="flexBetween max-container padding-container py-5 ">
+      <nav className="flexBetween section padding-container py-5 ">
         <Link href="/">
           <Image src="/logo.svg" alt="logo" width={150} height={150} />
         </Link>

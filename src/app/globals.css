@@ -16,13 +16,31 @@ body {
   background-color: hsl(21, 84%, 95%);
 }
 
-@layer utilities {
-  .max-container {
-    @apply mx-auto max-w-[1440px];
+.section {
+  width: 94%;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+}
+
+@media screen and (min-width: 1400px) {
+  .section {
+    width: 89%;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    max-width: 98dvw;
+  }
+}
+
+@layer utilities {
+  /* .max-container {
+    @apply mx-auto max-w-[1440px];
+  } */
 
   .padding-container {
-    @apply px-6 lg:px-20;
+    @apply px-3 lg:px-16;
   }
 
   .flexCenter {
@@ -62,7 +80,7 @@ body {
   }
 
   .rounded-f {
-    @apply rounded-full p-2 bg-text-lightAccent text-text-light;
+    @apply rounded-full p-4 bg-text-lightAccent text-text-light w-max;
   }
 
   .btn-transparent {
